@@ -35,7 +35,7 @@ def normalizeString(s, uni2ascii=False, lowercase=False, strip=False, only_latin
     if only_latin_letters:
         s = re.sub(r"([.!?])", r" \1", s)
         s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
-    
+    # Second test merge comment
     return prefix_suffix[0] + s + prefix_suffix[1]
 
 # ------------------- sort_key --------------------
