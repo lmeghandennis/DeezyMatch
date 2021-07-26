@@ -30,6 +30,7 @@ def normalizeString(s, uni2ascii=False, lowercase=False, strip=False, only_latin
     # Strip the string of non-essentials
     if strip:
         s = s.strip()
+    # NONSENSSSSEEEE COMMENT    
     if only_latin_letters:
         s = re.sub(r"([.!?])", r" \1", s)
         s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
